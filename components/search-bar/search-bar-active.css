@@ -1,0 +1,30 @@
+@import '../search-bar/search-bar-default.css';
+
+.search-default__icon_active{
+    color: #3F3356 !important;
+    cursor: pointer;
+ 
+}
+.search__icon-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ECEBED;
+    cursor:pointer;
+    transition: all 300ms;
+    margin-right:12px;
+}
+.search__icon-close_active{
+    width: 16px;
+    height: 16px;
+
+}
+
+.search__icon-close:hover{
+    color: #3F3356;
+    transition: all 300ms;
+}
+
+.search-default__text_active{
+    color:#3F3356 !important;
+}

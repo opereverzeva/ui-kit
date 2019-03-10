@@ -1,0 +1,25 @@
+@import "../dropdown/select-with-tags.css";
+@import '../dropdown/selected-full.css';
+
+.select-full-with-tags{
+    width: 240px;
+    height: 180px;
+}
+.select-with-tags__input {
+    margin: 0px 8px 0px 0px;
+    padding: 0;
+    height: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 15px;
+    border: none;
+    color: #3f3356;
+    width: 30%;
+    caret-color: #3F3356;
+
+}
+.selected-text__list_tags{
+    color: #1A051D !important;
+}
+.selected-text__list_tags-active{
+    color: #3F3356 !important;
+}

@@ -1,0 +1,15 @@
+@import '../search-bar/search-bar-default.css';
+
+.search__default-small{
+    width: 300px;
+    height: 36px;
+}
+.search-default-small__icon{
+    width:16px;
+    height:16px;
+}
+.search-default-small__text{
+    width: 182px;
+    height: 18px;
+    font-size: 13px;
+}

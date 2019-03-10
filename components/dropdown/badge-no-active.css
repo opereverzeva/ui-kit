@@ -1,0 +1,5 @@
+@import "../dropdown/badge.css";
+
+.badge__icon_no-active{
+    color: #6979F8 !important;
+}

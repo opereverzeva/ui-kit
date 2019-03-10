@@ -1,0 +1,5 @@
+@import './button-large.css';
+
+.button_loading-large{
+    width: 180px !important;
+}

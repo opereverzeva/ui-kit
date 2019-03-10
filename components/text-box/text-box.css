@@ -1,0 +1,25 @@
+.text-box{
+    width: 240px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #ECEBED;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.text-box__input{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 18px;
+    font-size: 13px;
+    width: 200px;
+    height: 18px;
+    border: none;
+    color: #1A051D;
+    caret-color: #1A051D;
+}
+.text-box__input::placeholder{
+    color:  #D0C9D6;
+
+}

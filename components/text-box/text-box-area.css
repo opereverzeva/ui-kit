@@ -1,0 +1,12 @@
+@import "../text-box/text-box-area.css";
+
+.text-box_area{
+    height: 140px;
+}
+.text-box__input_area{
+    width: 210px;
+    height: 110px;
+    outline: none;
+    resize: none;
+
+}

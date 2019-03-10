@@ -1,0 +1,8 @@
+@import './button-large.css';
+
+.button_small{
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 18px;
+}

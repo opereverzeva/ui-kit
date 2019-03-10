@@ -1,0 +1,19 @@
+@import '../direction-form/direction-form-default.css';
+
+.oval__default_midle{
+
+    border: 1.5px solid #A5AFFB;
+}
+.oval__default_full{
+
+    border: 1.5px solid  #6979F8;
+}
+.direction-form__delete{
+    /* margin-right: 64px; */
+    margin-bottom: 18px;
+    color: #D0C9D6;
+    cursor: pointer;
+}
+.direction-form__delete:hover{
+    color: #3F3356;
+}

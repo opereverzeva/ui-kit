@@ -1,0 +1,13 @@
+@import '../inputs/input-default.css';
+
+
+.selected__text{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    border: none;
+    margin: 14px 16px;
+    width: 208px;
+
+    line-height:40px;
+
+    background: url('./Arrow -Glyph-Down.svg') no-repeat right;
+}

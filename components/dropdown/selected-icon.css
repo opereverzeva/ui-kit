@@ -1,0 +1,10 @@
+@import './selected-default.css';
+
+
+.selected__icon{
+    margin-right:0px !important;
+    background: url('./Arrow -Glyph-Down.svg') no-repeat right;
+}
+.selected__text_icon{
+    float: left;
+}

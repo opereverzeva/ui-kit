@@ -1,0 +1,14 @@
+@import '../inputs/input-default.css';
+
+.select-with-tags{
+    display: flex;
+    flex-direction:  row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 12px !important; 
+    margin: 0px !important;
+}
+.select-with-tags__badge{
+    padding:0px;
+    margin-right: 4px;
+}

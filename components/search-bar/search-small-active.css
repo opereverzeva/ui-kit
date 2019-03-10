@@ -1,0 +1,7 @@
+@import "../search-bar/search-default-small.css";
+@import "../search-bar/search-bar-active.css";
+
+.search-default-small__icon{
+    width:16px;
+    height:16px;
+}
