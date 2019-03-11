@@ -1,0 +1,21 @@
+.loading-circle{
+    width: 85px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.loading-circle__icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+.loading-circle__text{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    color: #3F3356;
+  }

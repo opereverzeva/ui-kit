@@ -1,4 +1,4 @@
-.badge{
+.tags{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,26 +7,28 @@
     height: 24px;
     min-width: 60px;
 }
-.badge__text{
+.tags__text{
+    position: relative;
+    left: 0;
     padding:0px;
     height:14px;
-    margin:5px 2px 5px 8px;
+    margin-left:8px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    font-size: 12px;
+    font-family: SF Pro Text;
+    line-height: 13px;
+    font-size: 11px;
     color: #6979F8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-grow: 1;
 
 }
-.badge__icon{
-    left: 40px;;
-    width: 16px;
-    height: 16px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    margin: 4px 4px 4px 0px;
+.tags__close{
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4px;
     padding: 0;
     cursor: pointer;
+    color:  #6979F8;
 }

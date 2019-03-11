@@ -1,0 +1,36 @@
+.rating{
+    width: 110px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating__star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./star.svg') no-repeat left;
+    color: #FFF8E7;
+    width:14px;
+    height:14px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.rating__star_full{
+    color:#FFCF5C;
+}
+.rating__star_half{
+    color:#FFCF5C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+  
+}
+.rating__half-hidden{
+    overflow: hidden;
+    color:#FFCF5C;
+    width: 7px;
+    height: 100%;;
+
+}

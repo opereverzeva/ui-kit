@@ -162,7 +162,6 @@
 </div>
 
 <div style="margin-bottom: 30px; margin-top:10px;">TEXT BOX</div>
-
 <div class="textbox" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
 
     <extends  src='./src/components/text-box/text-box.html'>
@@ -177,7 +176,7 @@
 
 <div style="margin-bottom: 30px; margin-top:10px;">Other</div>
 
-<div class="other" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 15px;">
+<div class="other" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(3, 2fr); grid-gap: 15px;">
 
     <extends src='./src/components/other/checkboxes.html'>
    
@@ -188,6 +187,92 @@
     </extends>
     <extends src='./src/components/other/selector.html'>
    
+    </extends>
+    <div style="display:flex; justify-content:flex-start;">
+    <extends  src='./src/components/other/tags.html'>
+        <block  name="tagsName">Tag</block>
+    </extends>
+    </div>
+    <extends src='./src/components/other/switch-default.html'>
+   
+    </extends>
+    <extends src='./src/components/other/switch-active.html'>
+   
+    </extends>
+    
+    <extends src='./src/components/other/padinations-page.html'>
+   
+    </extends>
+    <extends src='./src/components/other/padinations-dot.html'>
+   
+    </extends>
+    <extends src='./src/components/other/stepper-full.html'>
+   
+    </extends>
+    <extends src='./src/components/other/stepper-small.html'>
+   
+    </extends>
+
+</div>
+<div style="margin-bottom: 30px; margin-top:10px;">TEXT LINK</div>
+
+<div class="text-link" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+    <extends src='./src/components/text-link/text-link-simple.html'>
+        <block  name="text-link">Text Link</block>
+    </extends>
+    
+    <extends src='./src/components/text-link/text-link-icon-left.html'>
+        <block  name="text-link">Left Icon</block>
+    </extends>
+
+    <extends src='./src/components/text-link/text-link-icon-right.html'>
+        <block  name="text-link">Right Icon</block>
+    </extends>
+
+</div>
+
+<div style="margin-bottom: 30px; margin-top:10px;">Loading</div>
+
+<div class="loading" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+    <extends src='./src/components/loading/loading-points.html'>
+    </extends>
+
+    <extends src='./src/components/loading/loading-circle.html'>
+    </extends>
+    
+    <extends src='./src/components/loading/loading-line.html'>
+    </extends>
+
+    <extends src='./src/components/loading/loading-line-done.html'>
+    </extends>
+
+</div>
+
+<div style="margin-bottom: 30px; margin-top:10px;">Label</div>
+
+<div class="Label" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+    <extends src='./src/components/label/label.html'>
+    </extends>
+
+</div>
+
+<div style="margin-bottom: 30px; margin-top:10px;">Progressign</div>
+
+<div class="progressign" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+    <extends src='./src/components/progressing/progressing-full.html'>
+    </extends>
+
+</div>
+
+<div style="margin-bottom: 30px; margin-top:10px;">Rating</div>
+
+<div class="rating" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+    <extends src='./src/components/rating/rating.html'>
     </extends>
 
 </div>

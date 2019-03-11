@@ -1,0 +1,14 @@
+@import "../loading/loading-line.css";
+
+.loading-line__check{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+
+}
+.loading-line__current_done{
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+@import "../other/switch-default.css";
+
+.switch__pointer_active{
+    background: linear-gradient(225deg, #BD7AE3 0%, #8461C9 100%);
+    margin-left: 22px;
+}

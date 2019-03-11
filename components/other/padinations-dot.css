@@ -1,0 +1,16 @@
+.padinations-dot{
+    width: 80px;
+    height: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padinations-dot__point{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ECEBED;
+}
+.padinations-dot__point_active{
+    background-color: #6979F8;
+}
