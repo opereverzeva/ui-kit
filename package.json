@@ -8,10 +8,14 @@
     "postcss-modules": "^1.4.1",
     "posthtml-expressions": "^1.1.0",
     "posthtml-extend": "^0.3.0",
-    "posthtml-modules": "^0.4.2"
+    "posthtml-modules": "^0.4.2",
+    "vue": "^2.6.8",
+    "vue-hot-reload-api": "^2.3.3"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.10"
+    "@vue/component-compiler-utils": "^2.6.0",
+    "autoprefixer": "^9.4.10",
+    "vue-template-compiler": "^2.6.8"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

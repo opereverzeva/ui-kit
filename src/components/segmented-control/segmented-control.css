@@ -1,0 +1,15 @@
+@import "../segmented-control/segment.css";
+
+.segmented-control{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.segment__text_default{
+    color:#1A051D;
+    margin-left: 25px;
+    margin-right: 25px;
+}

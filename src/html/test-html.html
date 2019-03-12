@@ -1,281 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test component</title>
 </head>
+
 <body>
     <div style="margin-bottom: 10px;">BUTTONS</div>
     <div style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(3, 1fr); grid-gap: 15px;">
 
-        <extends  src='./src/components/buttons/button-large.html'>
+        <extends src='./src/components/buttons/button-large.html'>
             <block name="buttonName">DEFAULT</block>
         </extends>
- 
-        <extends  src='./src/components/buttons/button-small.html'>
+
+        <extends src='./src/components/buttons/button-small.html'>
             <block name="buttonName">Small default</block>
         </extends>
 
-        <extends  src='./src/components/buttons/button-large.html'>
+        <extends src='./src/components/buttons/button-large.html'>
             <block name="buttonName">
-                <extends  src='./src/components/icons/shape.html'>
+                <extends src='./src/components/icons/shape.html'>
                 </extends>
-                    LEFT ICON 
+                LEFT ICON
             </block>
         </extends>
- 
-        <extends  src='./src/components/buttons/button-subscribtion.html'>
+
+        <extends src='./src/components/buttons/button-subscribtion.html'>
             <block name="buttonName">
-                <extends  src='./src/components/icons/subscrib.html'>
+                <extends src='./src/components/icons/subscrib.html'>
                 </extends>
             </block>
         </extends>
 
-       <extends  src='./src/components/buttons/button-loading-large.html'>
-        <block name="buttonName">
-            <extends  src='./src/components/icons/loading-large.html'>
-            </extends>
-        </block>
-    </extends>
-  
-    <extends  src='./src/components/buttons/button-loading-small.html'>
-        <block name="buttonName">
-            <extends  src='./src/components/icons/loading-small.html'>
-            </extends>
-        </block>
-    </extends>
-    
-</div>
+        <extends src='./src/components/buttons/button-loading-large.html'>
+            <block name="buttonName">
+                <extends src='./src/components/icons/loading-large.html'>
+                </extends>
+            </block>
+        </extends>
+
+        <extends src='./src/components/buttons/button-loading-small.html'>
+            <block name="buttonName">
+                <extends src='./src/components/icons/loading-small.html'>
+                </extends>
+            </block>
+        </extends>
+
+    </div>
 
     <div style="margin-bottom: 10px;"> INPUT FORM</div>
 
-<div class="input-form" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(3, 1fr); grid-gap: 15px;">
+    <div class="input-form" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(3, 1fr); grid-gap: 15px;">
 
-    <extends  src='./src/components/inputs/input-default.html'>
-       
-    </extends>
+        <extends src='./src/components/inputs/input-default.html'>
 
-    <extends  src='./src/components/inputs/input-password.html'>
-       
-    </extends>
+        </extends>
 
-    <extends  src='./src/components/inputs/input-left-icon.html'>
-       
-    </extends>
-    
-</div> 
+        <extends src='./src/components/inputs/input-password.html'>
+
+        </extends>
+
+        <extends src='./src/components/inputs/input-left-icon.html'>
+
+        </extends>
+
+    </div>
 
     <div style="margin-bottom: 10px;">DROPDOWN</div>
 
-<div class="dropdown-section" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
-    
-    <extends  src='./src/components/dropdown/selected-default.html'>
-        <block name="selectedName">Selected</block>
-    </extends>
+    <div class="dropdown-section" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
 
-    <extends  src='./src/components/dropdown/selected-icon.html'>
-       
-    </extends>
+        <extends src='./src/components/dropdown/selected-default.html'>
+            <block name="selectedName">Selected</block>
+        </extends>
 
-    <extends  src='./src/components/dropdown/selected-full.html'>
-       
-    </extends>
-</div>
+        <extends src='./src/components/dropdown/selected-icon.html'>
+
+        </extends>
+
+        <extends src='./src/components/dropdown/selected-full.html'>
+
+        </extends>
+    </div>
     <div style="margin-bottom: 30px;">MULTI-SELECT</div>
 
     <div class="multi-selected" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
-    
-        <extends  src='./src/components/dropdown/multi-select.html'>
-       
+
+        <extends src='./src/components/dropdown/multi-select.html'>
+
         </extends>
 
-        <extends  src='./src/components/dropdown/select-with-tags.html'>
-       
+        <extends src='./src/components/dropdown/select-with-tags.html'>
+
         </extends>
 
-        <extends  src='./src/components/dropdown/select-full-with-tags.html'>
-       
+        <extends src='./src/components/dropdown/select-full-with-tags.html'>
+
         </extends>
- 
-</div>
 
-<div style="margin-bottom: 30px;">SEARCH BAR</div>
-
-<div class="search-bar" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 15px;">
-
-    <extends  src='./src/components/search-bar/search-bar-default.html'>
-   
-    </extends>
-    <extends  src='./src/components/search-bar/search-bar-active.html'>
-   
-    </extends>
-
-    <extends  src='./src/components/search-bar/search-default-small.html'>
-   
-    </extends>
-
-    <extends  src='./src/components/search-bar/search-small-active.html'>
-   
-    </extends>
-
-    <extends  src='./src/components/search-bar/search-full.html'>
-   
-    </extends>
-    
-
-
-</div>
-
-<div style="margin-bottom: 30px;">DIRECTION FORM</div>
-
-<div class="direction-form" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 15px;">
-
-    <extends  src='./src/components/direction-form/direction-form-default.html'>
-   
-    </extends>
-    
-    <extends  src='./src/components/direction-form/direction-form-full.html'>
-   
-    </extends>
-
-</div>
-
-<div style="margin-bottom: 30px; margin-top:10px;">DATA PICKER</div>
-
-<div class="data-picker" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
-
-    <extends  src='./src/components/date-picker/date-picker-default.html'>
-   
-    </extends>
-    
-    <extends  src='./src/components/date-picker/date-picker-input.html'>
-   
-    </extends>
-
-    <extends  src='./src/components/date-picker/date-picker-full.html'>
-   
-    </extends>
-    
-
-</div>
-
-<div style="margin-bottom: 30px; margin-top:10px;">TEXT BOX</div>
-<div class="textbox" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
-
-    <extends  src='./src/components/text-box/text-box.html'>
-   
-    </extends>
-    
-    <extends  src='./src/components/text-box/text-box-area.html'>
-   
-    </extends>
-
-</div>
-
-<div style="margin-bottom: 30px; margin-top:10px;">Other</div>
-
-<div class="other" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(3, 2fr); grid-gap: 15px;">
-
-    <extends src='./src/components/other/checkboxes.html'>
-   
-    </extends>
-    
-    <extends src='./src/components/other/radio-button.html'>
-   
-    </extends>
-    <extends src='./src/components/other/selector.html'>
-   
-    </extends>
-    <div style="display:flex; justify-content:flex-start;">
-    <extends  src='./src/components/other/tags.html'>
-        <block  name="tagsName">Tag</block>
-    </extends>
     </div>
-    <extends src='./src/components/other/switch-default.html'>
-   
-    </extends>
-    <extends src='./src/components/other/switch-active.html'>
-   
-    </extends>
-    
-    <extends src='./src/components/other/padinations-page.html'>
-   
-    </extends>
-    <extends src='./src/components/other/padinations-dot.html'>
-   
-    </extends>
-    <extends src='./src/components/other/stepper-full.html'>
-   
-    </extends>
-    <extends src='./src/components/other/stepper-small.html'>
-   
-    </extends>
 
-</div>
-<div style="margin-bottom: 30px; margin-top:10px;">TEXT LINK</div>
+    <div style="margin-bottom: 30px;">SEARCH BAR</div>
 
-<div class="text-link" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+    <div class="search-bar" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 15px;">
 
-    <extends src='./src/components/text-link/text-link-simple.html'>
-        <block  name="text-link">Text Link</block>
-    </extends>
-    
-    <extends src='./src/components/text-link/text-link-icon-left.html'>
-        <block  name="text-link">Left Icon</block>
-    </extends>
+        <extends src='./src/components/search-bar/search-bar-default.html'>
 
-    <extends src='./src/components/text-link/text-link-icon-right.html'>
-        <block  name="text-link">Right Icon</block>
-    </extends>
+        </extends>
+        <extends src='./src/components/search-bar/search-bar-active.html'>
 
-</div>
+        </extends>
 
-<div style="margin-bottom: 30px; margin-top:10px;">Loading</div>
+        <extends src='./src/components/search-bar/search-default-small.html'>
 
-<div class="loading" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+        </extends>
 
-    <extends src='./src/components/loading/loading-points.html'>
-    </extends>
+        <extends src='./src/components/search-bar/search-small-active.html'>
 
-    <extends src='./src/components/loading/loading-circle.html'>
-    </extends>
-    
-    <extends src='./src/components/loading/loading-line.html'>
-    </extends>
+        </extends>
 
-    <extends src='./src/components/loading/loading-line-done.html'>
-    </extends>
+        <extends src='./src/components/search-bar/search-full.html'>
 
-</div>
+        </extends>
 
-<div style="margin-bottom: 30px; margin-top:10px;">Label</div>
 
-<div class="Label" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
 
-    <extends src='./src/components/label/label.html'>
-    </extends>
+    </div>
 
-</div>
+    <div style="margin-bottom: 30px;">DIRECTION FORM</div>
 
-<div style="margin-bottom: 30px; margin-top:10px;">Progressign</div>
+    <div class="direction-form" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 15px;">
 
-<div class="progressign" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+        <extends src='./src/components/direction-form/direction-form-default.html'>
 
-    <extends src='./src/components/progressing/progressing-full.html'>
-    </extends>
+        </extends>
 
-</div>
+        <extends src='./src/components/direction-form/direction-form-full.html'>
 
-<div style="margin-bottom: 30px; margin-top:10px;">Rating</div>
+        </extends>
 
-<div class="rating" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+    </div>
 
-    <extends src='./src/components/rating/rating.html'>
-    </extends>
+    <div style="margin-bottom: 30px; margin-top:10px;">DATA PICKER</div>
 
-</div>
+    <div class="data-picker" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
+
+        <extends src='./src/components/date-picker/date-picker-default.html'>
+
+        </extends>
+
+        <extends src='./src/components/date-picker/date-picker-input.html'>
+
+        </extends>
+
+        <extends src='./src/components/date-picker/date-picker-full.html'>
+
+        </extends>
+
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">TEXT BOX</div>
+    <div class="textbox" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 1fr); grid-gap: 15px;">
+
+        <extends src='./src/components/text-box/text-box.html'>
+
+        </extends>
+
+        <extends src='./src/components/text-box/text-box-area.html'>
+
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Other</div>
+
+    <div class="other" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(3, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/other/checkboxes.html'>
+
+        </extends>
+
+        <extends src='./src/components/other/radio-button.html'>
+
+        </extends>
+        <extends src='./src/components/other/selector.html'>
+
+        </extends>
+        <div style="display:flex; justify-content:flex-start;">
+            <extends src='./src/components/other/tags.html'>
+                <block name="tagsName">Tag</block>
+            </extends>
+        </div>
+        <extends src='./src/components/other/switch-default.html'>
+
+        </extends>
+        <extends src='./src/components/other/switch-active.html'>
+
+        </extends>
+
+        <extends src='./src/components/other/padinations-page.html'>
+
+        </extends>
+        <extends src='./src/components/other/padinations-dot.html'>
+
+        </extends>
+        <extends src='./src/components/other/stepper-full.html'>
+
+        </extends>
+        <extends src='./src/components/other/stepper-small.html'>
+
+        </extends>
+
+    </div>
+    <div style="margin-bottom: 30px; margin-top:10px;">TEXT LINK</div>
+
+    <div class="text-link" style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/text-link/text-link-simple.html'>
+            <block name="text-link">Text Link</block>
+        </extends>
+
+        <extends src='./src/components/text-link/text-link-icon-left.html'>
+            <block name="text-link">Left Icon</block>
+        </extends>
+
+        <extends src='./src/components/text-link/text-link-icon-right.html'>
+            <block name="text-link">Right Icon</block>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Loading</div>
+
+    <div class="loading" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/loading/loading-points.html'>
+        </extends>
+
+        <extends src='./src/components/loading/loading-circle.html'>
+        </extends>
+
+        <extends src='./src/components/loading/loading-line.html'>
+        </extends>
+
+        <extends src='./src/components/loading/loading-line-done.html'>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Label</div>
+
+    <div class="Label" style="display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/label/label.html'>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Progressign</div>
+
+    <div class="progressign" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/progressing/progressing-full.html'>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Rating</div>
+
+    <div class="rating" style="display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 15px;">
+
+        <extends src='./src/components/rating/rating.html'>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Segmented control</div>
+
+    <div class="segmented-controls" style="margin: 0; display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(2, 2fr); grid-gap: 50px;">
+
+        <extends src='./src/components/segmented-control/segment.html'>
+            <block name="segment-text">Homestay</block>
+        </extends>
+
+        <extends src='./src/components/segmented-control/segmented-control.html'>
+            <block name="segment2-text">Hotel</block>
+            <block name="segment3-text">Villa</block>
+            <block name="segment4-text">Resort</block>
+        </extends>
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">TAB</div>
+
+    <div class="segmented-controls" style="margin: 0; display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(2, 2fr); grid-gap: 50px;">
+
+        <extends src='./src/components/tab/tab.html'>
+            <block name="tab__text1">ACTIVE</block>
+            <block name="tab__text2">inactive</block>
+            <block name="tab__text3">inactive</block>
+            <block name="tab__text4">inactive</block>
+        </extends>
+
+
+
+    </div>
+
+    <div style="margin-bottom: 30px; margin-top:10px;">Slider</div>
+
+    <div class="sliders" style="margin: 0; display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(2, 2fr); grid-gap: 50px;">
+
+        <extends src='./src/components/slider/slider.html'>
+
+        </extends>
+
+    </div>
+    <div style="margin-bottom: 30px; margin-top:10px;">Avatars</div>
+
+    <div class="avat" style="margin: 0; display: grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1, 2fr); grid-gap: 50px;">
+
+        <extends src='./src/components/avatars/circle-avatars.html'>
+
+        </extends>
+        <extends src='./src/components/avatars/square-avatars.html'>
+
+        </extends>
+
+    </div>
+
 
 </body>
+
 </html>
