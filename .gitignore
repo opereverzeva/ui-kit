@@ -7,6 +7,10 @@ yarn-error.log*
 
 # Cache
 .cache
+.vue-components
+.js.entry.vue.js
+.html.ui-kit.html
+.css.common.css
 
 # Runtime data
 pids
