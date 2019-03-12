@@ -1,0 +1,1 @@
+{"version":3,"sources":["icon.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;AACA;IACI,eAAe;IACf,cAAc;AAClB","file":"icon.4110cb32.css","sourceRoot":"../src/html","sourcesContent":[".icon{\n    fill: currentColor;\n}\n\n.icon_hidden{\n    color: #D0C9D6;\n}\n.icon_hidden:hover{\n    cursor: pointer;\n    color: #3F3356;\n}"]}

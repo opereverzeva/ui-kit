@@ -1,0 +1,13 @@
+.icon{
+    fill: currentColor;
+}
+
+.icon_hidden{
+    color: #D0C9D6;
+}
+.icon_hidden:hover{
+    cursor: pointer;
+    color: #3F3356;
+}
+
+/*# sourceMappingURL=/icon.4110cb32.css.map */

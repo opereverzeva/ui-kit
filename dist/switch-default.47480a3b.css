@@ -1,0 +1,22 @@
+.switch{
+    width: 48px;
+    height: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.switch__pointer{
+    width: 24px;
+    height: 24px;
+    border-radius:50%;
+
+}
+.switch__pointer_default{
+    background-color:#ECEBED;
+    margin-left: 2px;
+}
+
+/*# sourceMappingURL=/switch-default.47480a3b.css.map */

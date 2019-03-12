@@ -1,0 +1,12 @@
+.loading-points{
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+/*# sourceMappingURL=/loading-points.981ac4b3.css.map */

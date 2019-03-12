@@ -1,0 +1,26 @@
+.selector{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.selector__box{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 19px;
+}
+.selector__default{
+    background: #FFFFFF;
+    border: 1px solid #A5AFFB;
+}
+.selector__active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6979F8;
+    color: #FFFFFF;
+}
+
+/*# sourceMappingURL=/selector.897d30bb.css.map */

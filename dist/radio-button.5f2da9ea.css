@@ -1,0 +1,34 @@
+.radio-button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.radio-button__box{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 14px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.radio-button__default{
+    border: 2px solid #A5AFFB;
+}
+.radio-button__active{
+    border: 2px solid #6979F8;
+}
+.radio-button__marker{
+    width: 14px;
+    height: 14px;
+    border-radius:50%;
+    box-sizing: border-box;
+}
+.radio-button__marker_active{
+    background-color: #6979F8;
+}
+
+/*# sourceMappingURL=/radio-button.5f2da9ea.css.map */

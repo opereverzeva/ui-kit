@@ -1,0 +1,31 @@
+.checkboxes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.checkboxes__box{
+    margin-left: 24px;
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #ECEBED;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.checkboxes__box_choice{
+    border: none;
+    color:  #6979F8;
+}
+.checkboxes__box_no-active{
+    background: #F7F5F9;
+    border: none;
+
+}
+
+
+/*# sourceMappingURL=/checkboxes.cfa8213b.css.map */

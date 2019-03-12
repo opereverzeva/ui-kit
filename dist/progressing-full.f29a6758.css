@@ -1,0 +1,61 @@
+.progressing-full{
+    width: 343px;
+    height: 32px;
+    position: relative;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 13px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.progressing-full__line{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ECEBED;
+    border-radius: 2px;
+    z-index: 1;
+    color:  #A5AFFB;
+    display: flex;
+    justify-content: flex-start;
+}
+.progressing-full__line_progress{
+    /* position: relative; */
+    width: 50%;
+    height:4px;
+    background-color: #A5AFFB;
+    border-radius: 2px;
+    z-index: 2;
+}
+.progressing-full__points{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    padding: 0 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressing-full__point{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #FFFFFF;
+    border-radius: 50%;
+    background:#6979F8;
+    color: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+}
+.progressing-full__point_default{
+    background: #FFFFFF;
+    border: 1px solid #ECEBED;
+    color: #D0C9D6;
+}
+
+/*# sourceMappingURL=/progressing-full.f29a6758.css.map */

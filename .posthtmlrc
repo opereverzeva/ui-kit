@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "posthtml-modules": {},
+    "posthtml-extend": {},
+    "posthtml-expressions": {}
+  }
+}
