@@ -1,37 +1,45 @@
-.selected-full{
+.selected-full {
     width: 240px;
     height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-.selected-full__list{
-    width: 100%;
-    height:124px;
-    bottom:0;
+
+.selected-full__box {
+    height: 124px;
     background: #FFFFFF;
     box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
+    padding-left: 16px;
+
 }
-.selected-list{
-    width: 100%;
+
+.selected-full__list {
+    height: 100%;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
     list-style: none;
-    margin: 16px 16px 0px 16px;
-   
+
+
 }
-.selected-text__list{
-    
-    padding: 16px 16px 0px 0px;
+
+.selected-full__text {
     width: 208px;
-    height:20px;
+    height: 20px;
     line-height: 20px;
     font-size: 15px;
     color: #D0C9D6;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    
+    cursor: pointer;
+
 }
-.selected-text__list_active{
-    color: #3F3356 !important;
+
+
+.selected-full__text_active {
+    color: #3F3356;
 }

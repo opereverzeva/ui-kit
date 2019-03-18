@@ -1,10 +1,13 @@
 @import './selected-default.css';
 
 
-.selected__icon{
-    margin-right:0px !important;
-    background: url('./Arrow -Glyph-Down.svg') no-repeat right;
-}
-.selected__text_icon{
-    float: left;
+.selected__icon-left {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: -8px;
+
 }

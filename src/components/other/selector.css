@@ -1,21 +1,25 @@
-.selector{
+.selector {
+    width: 68px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
 }
-.selector__box{
+
+.selector__box {
     width: 24px;
     height: 24px;
     border-radius: 50%;
     box-sizing: border-box;
-    margin-left: 19px;
+    cursor: pointer;
 }
-.selector__default{
+
+.selector__box_default {
     background: #FFFFFF;
     border: 1px solid #A5AFFB;
 }
-.selector__active{
+
+.selector__box_active {
     display: flex;
     justify-content: center;
     align-items: center;

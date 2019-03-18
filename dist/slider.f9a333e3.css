@@ -1,4 +1,4 @@
-.slider{
+.slider {
     width: 300px;
     height: 32px;
     display: flex;
@@ -6,20 +6,24 @@
     align-items: center;
     position: relative;
 }
-.slider__line{
+
+.slider__line {
     position: absolute;
     width: 100%;
     height: 4px;
     background: #ECEBED;
     border-radius: 2px;
+    cursor: pointer;
 }
-.slider__progress{
+
+.slider__progress {
     width: 31%;
     height: 4px;
     background: linear-gradient(181.91deg, #BD7AE3 0%, #8461C9 100%);
     border-radius: 2px;
 }
-.slider__point{
+
+.slider__point {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -29,6 +33,7 @@
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
     background: linear-gradient(225deg, #BD7AE3 0%, #8461C9 100%);
     z-index: 1;
+    cursor: pointer;
 }
 
 /*# sourceMappingURL=/slider.f9a333e3.css.map */

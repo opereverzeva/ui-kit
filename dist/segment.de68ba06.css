@@ -1,5 +1,5 @@
-.segment{
-    
+.segment {
+
     height: 40px;
     background-color: white;
     border-radius: 6px;
@@ -8,22 +8,21 @@
     align-items: center;
     cursor: pointer;
 }
-.segment:hover{
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-}
-.segment_active{
+
+.segment_active {
     width: 112px;
     background: linear-gradient(199.65deg, #BD7AE3 0%, #8461C9 100%);
 }
-.segment__text{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+.segment__text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 18px;
     font-size: 13px;
     text-align: center;
-   
+
 }
-.segment__text_active{
+
+.segment__text_active {
     color: #FFFFFF;
 }
 

@@ -1,5 +1,28 @@
 @import './button-large.css';
 
-.button_loading-large{
-    width: 180px !important;
+.button_large-loading {
+    width: 180px;
+    height: 48px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.button__animation-large {
+    width: 20px;
+    height: 20px;
+    animation: loading-animation 1.4s linear infinite;
+}
+
+@keyframes loading-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
 }

@@ -39,10 +39,7 @@
 
 
 }
-.search__text:active{
-    opacity: 0;
 
-}
 .search-default__text{
     width: 182px;
     height: 20px;
@@ -91,7 +88,7 @@
     color:#3F3356 !important;
 }
 
-.search-full{
+.search-full {
     width: 300px;
     height: 210px;
     background: #FFFFFF;
@@ -101,18 +98,20 @@
     border-radius: 6px;
 
 }
-.search-full__search{
+
+.search-full__search {
     margin: 0;
     z-index: 1;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 15px;
 }
-.search-full__list{
+
+.search-full__list {
     padding: 0;
     box-sizing: border-box;
     width: 300px;
     margin: -10px 0px 0px 0px;
-    height: 182px;
+    height: 165px;
     z-index: 10;
     bottom: 0;
     display: flex;
@@ -121,40 +120,49 @@
     align-items: flex-start;
     background-color: #fff;
 }
-.search-full__line{
+
+.search-full__line {
     width: 270px;
     margin-top: 0px;
     margin-left: 14px;
 }
-.search__select{
+
+.search-full__text {
+    height: 100%;
+}
+
+.search__select {
     width: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-start;
-    list-style: none; 
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
     margin-top: 0px;
-    margin-bottom: 16px;
+    height: 100%;
+    /* margin-bottom: 16px; */
 }
-.search-select__text{
-    width: 276px;
-    padding: 9px;
+
+.search-select__text {
+    width: 283px;
+    /* padding: 9px; */
     display: flex;
     justify-content: flex-start;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 15px;
-    padding-left:16px;
+    padding-left: 16px;
     height: 20px;
     color: #3F3356;
 
 }
 
-.text__version{
+.text__version {
     mix-blend-mode: normal;
     opacity: 0.3;
 }
-.search-select__text:hover{
+
+.search-select__text:hover {
     background: rgba(0, 0, 0, 0.07);
 }
 

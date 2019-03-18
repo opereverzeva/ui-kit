@@ -7,9 +7,17 @@ yarn-error.log*
 
 # Cache
 .cache
+
+#Vue
 .vue-components
+
+#JS
 .js.entry.vue.js
+
+#ui-kit.html
 .html.ui-kit.html
+
+#css.common
 .css.common.css
 
 # Runtime data

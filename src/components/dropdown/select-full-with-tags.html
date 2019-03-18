@@ -4,29 +4,28 @@
 <div class="select-full-with-tags">
 
     <div class="select-with-tags input">
-    
-     <div class="select-with-tags__badge">
-        <extends  src='./src/components/dropdown/badge-no-active.html'>
-            <block  name="badgeName">Value</block>
-        </extends>
-     </div>
 
-     <div class="select-with-tags__badge">
-        <extends  src='./src/components/dropdown/badge-no-active.html'>
-            <block name="badgeName">Value 2</block>
-        </extends>
-     </div>
+        <div class="select-with-tags__badge">
+            <extends src='./src/components/dropdown/badge-no-active.html'>
+                <block name="badgeName">Value</block>
+            </extends>
+        </div>
+
+        <div class="select-with-tags__badge">
+            <extends src='./src/components/dropdown/badge-no-active.html'>
+                <block name="badgeName">Value 2</block>
+            </extends>
+        </div>
 
         <input class="select-with-tags__badge select-with-tags__input" type="text" name="input" value="Val">
- 
-    
-    </div>    
 
-    <div class="selected-full__list">
-        <ul class="selected-list selected-list_tags">
-            <li class="selected-text__list selected-text__list_tags">Value</li>
-            <li class="selected-text__list  selected-text__list_tags-active">Value</li>
-            <li class="selected-text__list  selected-text__list_tags">Value</li>
+    </div>
+
+    <div class="selected-full__box">
+        <ul class="selected-full__list">
+            <li class="selected-full__text selected-full__text_tags">Value</li>
+            <li class="selected-full__text  selected-full__text_tags-active">Value</li>
+            <li class="selected-full__text  selected-full__text_tags">Value</li>
         </ul>
     </div>
 </div>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Simple ui-kit">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>ui-kit</title>
+
+</head>
+
+<body>
+    <header class="header">Simple ui-kit for your website</header>
+    <nav class="navbar">
+        <div class="navbar__components">Components</div>
+        <div class="navbar__example"> <a class="navbar__link" href=""> Look an example of use</a> </div>
+    </nav>
+    <main class="main-page" role="main">
+        <section class="content-box">
+            <div class="content-box__title">Buttons</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-large.html'>
+                        <block name="buttonName">DEFAULT</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    large button;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-small.html'>
+                        <block name="buttonName">Small default</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    small button;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-large.html'>
+                        <block name="buttonName">
+                            <div class="container__icon">
+                                <extends src='./src/components/icons/shape.html'>
+                                </extends>
+                            </div>
+                            LEFT ICON
+                        </block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    button with some icon on the left;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-subscription.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    button for subscription;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-loading-large.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    large loading button;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/buttons/button-loading-small.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    small loading button;
+                </div>
+            </div>
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Input form</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/inputs/input-default.html'>
+
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default input form;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/inputs/input-password.html'>
+
+                    </extends>
+                </div>
+                <div class="container__description">
+                    input form for password;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/inputs/input-left-icon.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    input form with icon on the left;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Dropdown</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/selected-default.html'>
+                        <block name="selectedName">Selected</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    base selected face;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/selected-icon.html'>
+                        <block name="selectedName">Selected</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    selected with some icon on left;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/selected-full.html'>
+
+                    </extends>
+                </div>
+                <div class="container__description">
+                    selected with opacity;
+                </div>
+            </div>
+
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Multi-select</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/multi-select.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    base select for enter;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/select-with-tags.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    select with tags;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/dropdown/select-full-with-tags.html'>
+
+                    </extends>
+                </div>
+                <div class="container__description">
+                    select with enter tags;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Search bar</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/search-bar/search-bar-default.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default search;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/search-bar/search-bar-active.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    active search;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/search-bar/search-default-small.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default search small;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/search-bar/search-small-active.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    active search small;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/search-bar/search-full.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    full search;
+                </div>
+            </div>
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Direction form</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/direction-form/direction-form-default.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default location;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/direction-form/direction-form-full.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    active location;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Data picker</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/date-picker/date-picker-default.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default data picker;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/date-picker/date-picker-input.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    active data picker;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/date-picker/date-picker-full.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    full data picker;
+                </div>
+            </div>
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Text box</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/text-box/text-box.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    default text box;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/text-box/text-box-area.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    textarea box;
+                </div>
+            </div>
+
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Other</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/checkboxes.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    checkbox;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/radio-button.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    radio-box;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/selector.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    selector;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/tags.html'>
+                        <block name="tagsName">Tag</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    tag;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/switch-default.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    switch default;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/switch-active.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    switch active;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/paginations-page.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    pagination;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/paginations-dot.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    pagination point;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/stepper-full.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    stepper control;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/other/stepper-small.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    small stepper control;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Text link</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/text-link/text-link-simple.html'>
+                        <block name="text-link">Text Link</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    simple text link;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/text-link/text-link-icon-left.html'>
+                        <block name="text-link">Left Icon</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    text link with some icon on left;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/text-link/text-link-icon-right.html'>
+                        <block name="text-link">Right Icon</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    text link with some icon on right;
+                </div>
+            </div>
+
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Loading</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/loading/loading-points.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    small loading;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/loading/loading-circle.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    loading;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/loading/loading-line.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    line loading;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/loading/loading-line-done.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    line loading full;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Label</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/label/label.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    label;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Progressing</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/progressing/progressing-full.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    progressing;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Rating</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/rating/rating.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    stars rating;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Segmented control</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/segmented-control/segment.html'>
+                        <block name="segment-text">Homestay</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    active segment;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/segmented-control/segmented-control.html'>
+                        <block name="segment2-text">Hotel</block>
+                        <block name="segment3-text">Villa</block>
+                        <block name="segment4-text">Resort</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    segmented control;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">TAB</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/tab/tab.html'>
+                        <block name="tab__text1">ACTIVE</block>
+                        <block name="tab__text2">inactive</block>
+                        <block name="tab__text3">inactive</block>
+                        <block name="tab__text4">inactive</block>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    nav menu;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Slider</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/slider/slider.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    slider;
+                </div>
+            </div>
+
+        </section>
+        <section class="content-box">
+            <div class="content-box__title">Avatars</div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/avatars/circle-avatars.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    circle avatars;
+                </div>
+            </div>
+            <div class="content-box__container container">
+                <div class="container__component">
+                    <extends src='./src/components/avatars/square-avatars.html'>
+                    </extends>
+                </div>
+                <div class="container__description">
+                    square avatars;
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <address class="address">
+            by
+            <a href="https://vk.com/id3564716" class="address__link" target="_blank" title="Контакт в vk">
+                Olga Pereverzeva
+            </a>
+        </address>
+    </footer>
+</body>
+
+</html>

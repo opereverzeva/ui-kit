@@ -39,10 +39,7 @@
 
 
 }
-.search__text:active{
-    opacity: 0;
 
-}
 .search-default__text{
     width: 182px;
     height: 20px;

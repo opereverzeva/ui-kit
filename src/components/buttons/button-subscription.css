@@ -1,0 +1,16 @@
+@import './button-large.css';
+
+.button_square {
+    width: 48px;
+    border-radius: 16px;
+    height: 48px;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+
+.button__subscription-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

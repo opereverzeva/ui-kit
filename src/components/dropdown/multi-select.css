@@ -1,2 +1,11 @@
-@import '../inputs/input-default.css';
 @import './selected-default.css';
+
+.selected__text_input {
+    width: 192px;
+    margin: 0;
+}
+
+.selected__icon {
+    /* position: absolute; */
+
+}

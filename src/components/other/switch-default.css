@@ -1,4 +1,4 @@
-.switch{
+.switch {
     width: 48px;
     height: 28px;
     background: #FFFFFF;
@@ -8,13 +8,15 @@
     align-items: center;
     box-sizing: border-box;
 }
-.switch__pointer{
+
+.switch__pointer {
     width: 24px;
     height: 24px;
-    border-radius:50%;
-
+    border-radius: 50%;
+    cursor: pointer;
 }
-.switch__pointer_default{
-    background-color:#ECEBED;
+
+.switch__pointer_default {
+    background-color: #ECEBED;
     margin-left: 2px;
 }

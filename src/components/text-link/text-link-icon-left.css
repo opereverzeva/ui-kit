@@ -1,18 +1,10 @@
 @import "../text-link/text-link-simple.css";
 
-.text-link-icon{
-    height: 18px;
-    display: flex;
-    align-items: center;
-}
-.text-link-icon__icon{
+.text-link__icon {
     width: 16px;
     height: 16px;
     display: flex;
     align-items: center;
-    justify-content:center; 
-    
-}
-.text-link-icon__icon_left{
-    margin-right: 4px;
+    justify-content: center;
+
 }

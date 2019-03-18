@@ -1,10 +1,12 @@
-.checkboxes{
+.checkboxes {
+    width: 120px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
-.checkboxes__box{
-    margin-left: 24px;
+
+.checkboxes__box {
+
     width: 24px;
     height: 24px;
     background: #FFFFFF;
@@ -15,14 +17,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    cursor: pointer;
+
 }
-.checkboxes__box_choice{
+
+.checkboxes__box_choice {
     border: none;
-    color:  #6979F8;
+    color: #6979F8;
 }
-.checkboxes__box_no-active{
-    background: #F7F5F9;
+
+.checkboxes__box_no-active {
+    background: #F7F5F9 !important;
     border: none;
 
 }

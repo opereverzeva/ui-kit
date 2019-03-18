@@ -1,5 +1,113 @@
 @import './button-large.css';
 
-.button_loading-small{
-    width: 120px !important;
+.button_loading-small {
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.animation__point {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.button:hover .animation__point{
+    background-color: #6979F8 !important;
+}
+
+.button__animation {
+    width: 20px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.button__animation:hover{
+    background-color: #6979F8 !important;
+}
+.point1 {
+
+    animation: loading-animation1 1.1s linear infinite;
+}
+
+.point2 {
+    animation: loading-animation2 1.1s linear infinite;
+}
+
+.point3 {
+
+    animation: loading-animation3 1.1s linear infinite;
+}
+
+@keyframes loading-animation1 {
+    0% {
+        top: 25%;
+    }
+
+    30% {
+        top: 0;
+
+    }
+
+    60% {
+        top: -25%;
+    }
+
+    90% {
+        top: 0;
+    }
+
+    100% {
+        top: 25%;
+    }
+}
+
+@keyframes loading-animation2 {
+    0% {
+        top: 0;
+    }
+
+    30% {
+        top: -25%;
+
+    }
+
+    60% {
+        top: 0;
+    }
+
+    90% {
+        top: 25%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes loading-animation3 {
+    0% {
+        top: -25%;
+    }
+
+    30% {
+        top: 0;
+
+    }
+
+    60% {
+        top: 25%;
+    }
+
+    90% {
+        top: 0;
+    }
+
+    100% {
+        top: -25%;
+    }
 }

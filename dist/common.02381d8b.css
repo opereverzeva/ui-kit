@@ -348,5 +348,128 @@ template {
   display: none;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    padding: 15px;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #6979F8;
+}
+
+.navbar {
+    width: 1300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: black;
+    transition: color font-weight 200ms;
+}
+
+.navbar__link:hover {
+    color: #6979F8;
+    font-weight: bold;
+    transition: color font-weight 200ms;
+}
+
+.navbar__example:hover {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+    transition: all 200ms;
+
+}
+
+.main-page {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9);
+    grid-gap: 50px;
+    min-height: calc(100vh-50px);
+    align-self: center;
+    justify-self: start;
+}
+
+.content-box {
+    position: relative;
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.content-box__title {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px rgb(136, 166, 231);
+}
+
+.content-box__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0 0 40px;
+}
+
+.container__component {
+    width: 70%;
+}
+
+.container__description {
+    width: 40%;
+    margin-top: 5px;
+
+}
+
+.container__icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.footer {
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+}
+
+.address__link {
+    text-decoration: none;
+    color: black;
+    transition: color 300ms;
+}
+
+.address__link:hover {
+    color: #6979F8;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    transition: color 300ms;
+}
 
 /*# sourceMappingURL=/common.02381d8b.css.map */

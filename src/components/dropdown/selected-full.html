@@ -1,14 +1,16 @@
 <link rel="stylesheet" href="../components/dropdown/selected-full.css">
 
 <div class="selected-full">
-    <extends  src='./src/components/dropdown/selected-default.html'>
-        <block name="selectedName">Dropdown</block>
-    </extends>
-    <div class="selected-full__list">
-        <ul class="selected-list">
-            <li class="selected-text__list">Value</li>
-            <li class="selected-text__list selected-text__list_active">Value</li>
-            <li class="selected-text__list">Value</li>
+    <div class="selected-full__header">
+        <extends src='./src/components/dropdown/selected-default.html'>
+            <block name="selectedName">Dropdown</block>
+        </extends>
+    </div>
+    <div class="selected-full__box">
+        <ul class="selected-full__list">
+            <li class="selected-full__text">Value</li>
+            <li class="selected-full__text selected-full__text_active">Value</li>
+            <li class="selected-full__text">Value</li>
         </ul>
     </div>
 </div>

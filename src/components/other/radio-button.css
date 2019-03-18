@@ -1,32 +1,38 @@
-.radio-button{
+.radio-button {
+    width: 68px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
 }
-.radio-button__box{
+
+.radio-button__box {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    margin-left: 14px;
+    cursor: pointer;
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
-.radio-button__default{
+
+.radio-button__box_default {
     border: 2px solid #A5AFFB;
 }
-.radio-button__active{
+
+.radio-button__box_active {
     border: 2px solid #6979F8;
 }
-.radio-button__marker{
+
+.radio-button__marker {
     width: 14px;
     height: 14px;
-    border-radius:50%;
+    border-radius: 50%;
     box-sizing: border-box;
 }
-.radio-button__marker_active{
+
+.radio-button__marker_active {
     background-color: #6979F8;
 }

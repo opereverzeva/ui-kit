@@ -1,5 +1,9 @@
 @import "../text-link/text-link-icon-left.css";
 
-.text-link-icon__icon_right{
-    margin-left:4px;
+.text-link__icon_right {
+    justify-content: space-between;
+}
+
+.text-link-__icon_right {
+    margin-left: 4px;
 }

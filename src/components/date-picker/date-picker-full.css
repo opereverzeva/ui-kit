@@ -1,6 +1,6 @@
 @import "../date-picker/date-picker-default.css";
 
-.date-picker__full{
+.date-picker__full {
     position: relative;
     width: 320px;
     height: 342px;
@@ -8,14 +8,15 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
-}
-.date-picker__default_for-full{
-    width: 100%;
-    
 
 }
-.calendar{
+
+.date-picker__default_full {
+    width: 320px !important;
+
+}
+
+.calendar {
     position: relative;
     width: 100%;
     height: 286px;
@@ -27,83 +28,93 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.calendar__header{
+
+.calendar__header {
     position: absolute;
     margin-top: 7px;
-    width:100%;
-    height:68px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
 }
-.calendar__current-month{
+
+.calendar__current-month {
     margin-top: 16px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 24px;
     width: 100%;
 }
-.calendar__button-pre, .calendar__button-next{
-    width:24px;
-    height:24px;
+
+.calendar__button-pre,
+.calendar__button-next {
+    width: 24px;
+    height: 24px;
     /* margin-top:4px; */
     background: #FFFFFF;
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-.calendar__button-pre{
-    color:#ECEBED;
-    margin-left:16px;
+
+.calendar__button-pre {
+    color: #ECEBED;
+    margin-left: 16px;
 }
-.calendar__month-name{
-    flex-grow:1;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+.calendar__month-name {
+    flex-grow: 1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 20px;
     font-size: 15px;
     text-align: center;
     text-justify: auto;
     color: #1A051D;
 }
-.calendar__button-next{
-    margin-right:16px;
+
+.calendar__button-next {
+    margin-right: 16px;
 }
-.calendar__title-days{
+
+.calendar__title-days {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 16px 9px 16px;
     width: 288px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 16px;
     font-size: 12px;
     color: #D0C9D6;
     padding: 0px;
 
 }
-.calendar__line{
+
+.calendar__line {
     /* bottom: 0; */
     width: 288px;
     margin: 0px;
     padding: 0px;
     height: 1px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.calendar__table{
+
+.calendar__table {
     position: relative;
     /* width: 276px; */
     height: 178px;
     bottom: 0;
     margin: 92px 25px 16px 25px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 16px;
     font-size: 12px;
     text-align: center;
@@ -118,7 +129,8 @@
     grid-gap: 25px; */
 
 }
-.calendar__num{
+
+.calendar__num {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,35 +138,40 @@
     height: 32px;
     cursor: pointer;
 }
-.calendar__week{
+
+.calendar__week {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px 16px 5px 22px;
     width: 298px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 16px;
     font-size: 12px;
     color: #3F3356;
     padding: 0px;
 }
-.calendar__num_opancy{
+
+.calendar__num_opancy {
     color: #ECEBED;
 }
-.calendar__num_sunday{
+
+.calendar__num_sunday {
     color: #FFA26B;
 }
-.calendar__num_current-day{
+
+.calendar__num_current-day {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background:linear-gradient(225deg, #BD7AE3 0%, #8461C9 100%);
+    background: linear-gradient(225deg, #BD7AE3 0%, #8461C9 100%);
     color: #FFFFFF;
 }
-.calendar__num_choose-day{
+
+.calendar__num_choose-day {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color:#EEDFF2;
+    background-color: #EEDFF2;
     color: #BE52F2;
 }
