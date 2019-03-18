@@ -1,0 +1,87 @@
+
+@import './style.css';
+
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.page-shadow{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(63, 51, 86, 0.4) !important;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-modal{
+    width: 916px;
+    max-height: 573px;
+    min-height: 300px;
+    height: 60vh;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    position: relative;
+}
+.name-user{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ecebed;
+    display: flex;
+    align-items: flex-start;
+}
+.name-user__text{
+
+    font-size: 34px;
+    color: #000000;
+    padding-left: 34px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+.name-user__close{
+    float: right;
+    border: #000000;
+    background-color: #FFFFFF;
+    min-width: 42px;
+    height: 42px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-user__close:hover{
+    cursor: pointer;
+}
+.data-user{
+    margin-top: 34px;
+    margin-left: 34px;
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 28px;
+
+}
+
+.input__text{
+    border: none;
+    margin: 14px 16px;
+    max-width: 212px;
+    cursor: text;
+    caret-color:#3F3356;
+    line-height:40px;
+
+}
+.data-user__select{
+    margin-right: 16px;
+}
+.page-modal__button{
+    position: absolute;
+    margin: 0px 22px 22px 0px;
+    bottom: 0;
+    right: 0;
+}
